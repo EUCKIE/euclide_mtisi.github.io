@@ -231,7 +231,7 @@
     <section class="contact" id="contact">
       <h2 class="section-title">Contact Me
       </h2>
-
+<!--
       <form action="https://formsubmit.co/9549187e0d3ea3db6b475d732575baaa" method="POST">
         <div class="input-group">
             <input type="text" name="name" placeholder="Full Name" required>
@@ -244,7 +244,17 @@
             <button type="submit">Submit</button>
         </div>
     </form>
+-->
 
+<form id="contactForm">
+  <div class="input-group">
+      <input type="text" id="name" placeholder="Full Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="number" id="number" placeholder="Phone number">
+      <textarea id="message" required placeholder="Your Message"></textarea>
+      <button type="submit">Submit</button>
+  </div>
+</form>
     
   </section>
 
@@ -272,7 +282,7 @@
 
    </footer>
 
-
+   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="scripts.js"></script>
   </body>
 </html>

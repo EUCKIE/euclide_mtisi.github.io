@@ -299,7 +299,7 @@ section {
 }
 .skills {
   padding: 2rem;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto 2rem auto;
 }
 
@@ -553,11 +553,11 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 0.6rem;
 }
 footer ul{
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
   align-items: center ;
 
 }
