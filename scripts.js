@@ -6,3 +6,4 @@ menuIcon.onclick=() => {
     menuIcon.classList.toggle('active');
     
 }
+
