@@ -37,7 +37,7 @@
         </li>
       </ul>
       <i class="bx bx-menu" id="menu-icon"></i>
-      <button class="contact-me">Contact Me</button>
+      <button class="contact-me" >Contact Me</button>
     </header>
 
     <section id="about" class="about">
@@ -49,7 +49,7 @@
           <div class="text">
             <h3>Hi, I'm</h3>
             <h1><span>Euclide Mtisi</span></h1></span>
-            <p>A graphic designer and a student studying Artificial Intelligence and Machine Learning student at the University of Zimbabwe, passionate about blending creative design with intelligent technology. My work focuses on creating visually impactful designs and building smart, user-centered solutions using machine learning. Whether it's a poster, brand identity, or a predictive model, I love crafting experiences that connect design and data.</p>
+            <p>A graphic designer and a student studying Artificial Intelligence and Machine Learning at the University of Zimbabwe, passionate about blending creative design with intelligent technology. My work focuses on creating visually impactful designs and building smart, user-centered solutions using machine learning. Whether it's a poster, brand identity, or a predictive model, I love crafting experiences that connect design and data.</p>
           </div>
 
           <div class="btn-group">
@@ -113,6 +113,33 @@
       <h2 class="section-title">My Skills</h2>
       <div class="skills-info">
         <div class="grid">
+
+             <!-- Graphic Design -->
+             <div class="grid-card">
+              <i class='bx bxs-color'></i>
+              <span>Graphic Design - <em>Professional Skills</em></span>
+              <h3>Software Proficiency</h3>
+              <div class="circle-wrapper">
+                <div class="circle-card"><div class="progress-circle p72"><span>72%</span></div><p>Photoshop</p></div>
+                <div class="circle-card"><div class="progress-circle p88"><span>88%</span></div><p>Illustrator</p></div>
+                <div class="circle-card"><div class="progress-circle p65"><span>65%</span></div><p>CorelDraw</p></div>
+                <div class="circle-card"><div class="progress-circle p75"><span>75%</span></div><p>Branding</p></div>
+                <div class="circle-card"><div class="progress-circle p90"><span>90%</span></div><p>Social Media Design</p></div>
+                <div class="circle-card"><div class="progress-circle p90"><span>90%</span></div><p>Poster Design</p></div>
+              </div>
+            </div>
+      
+            <!-- Web Development -->
+            <div class="grid-card">
+              <i class='bx bx-world'></i>
+              <span>Web Development - <em>Growing Skills</em></span>
+              <h3>Technology Stack</h3>
+              <div class="circle-wrapper">
+                <div class="circle-card"><div class="progress-circle p90"><span>90%</span></div><p>HTML & CSS</p></div>
+                <div class="circle-card"><div class="progress-circle p32"><span>32%</span></div><p>Git & GitHub</p></div>
+                <div class="circle-card"><div class="progress-circle p58"><span>58%</span></div><p>Django</p></div>
+              </div>
+            </div>
           <!-- AI/ML -->
           <div class="grid-card">
             <i class='bx bx-brain'></i>
@@ -144,32 +171,7 @@
             </div>
           </div>
     
-          <!-- Graphic Design -->
-          <div class="grid-card">
-            <i class='bx bxs-color'></i>
-            <span>Graphic Design - <em>Professional Skills</em></span>
-            <h3>Software Proficiency</h3>
-            <div class="circle-wrapper">
-              <div class="circle-card"><div class="progress-circle p72"><span>72%</span></div><p>Photoshop</p></div>
-              <div class="circle-card"><div class="progress-circle p88"><span>88%</span></div><p>Illustrator</p></div>
-              <div class="circle-card"><div class="progress-circle p65"><span>65%</span></div><p>CorelDraw</p></div>
-              <div class="circle-card"><div class="progress-circle p75"><span>75%</span></div><p>Branding</p></div>
-              <div class="circle-card"><div class="progress-circle p90"><span>90%</span></div><p>Social Media Design</p></div>
-              <div class="circle-card"><div class="progress-circle p90"><span>90%</span></div><p>Poster Design</p></div>
-            </div>
-          </div>
-    
-          <!-- Web Development -->
-          <div class="grid-card">
-            <i class='bx bx-world'></i>
-            <span>Web Development - <em>Growing Skills</em></span>
-            <h3>Technology Stack</h3>
-            <div class="circle-wrapper">
-              <div class="circle-card"><div class="progress-circle p90"><span>90%</span></div><p>HTML & CSS</p></div>
-              <div class="circle-card"><div class="progress-circle p32"><span>32%</span></div><p>Git & GitHub</p></div>
-              <div class="circle-card"><div class="progress-circle p58"><span>58%</span></div><p>Django</p></div>
-            </div>
-          </div>
+       
         </div>
       </div>
     </section>
@@ -227,19 +229,28 @@
     </section>
 
     <section class="contact" id="contact">
+      <h2 class="section-title">Contact Me
+      </h2>
 
-      <div class="input-box">
-      
-      <h2 class="section-title">Contact Me</h2>
-      
-      <div class="input">
-        <input type="text" placeholder="example@gmail.com" />
-        <i class="bx bxs-envelope"></i>
-      </div>
+      <form action="https://formsubmit.co/euclidemtisi@gmail.com" method="POST">
 
-      <div class="btn">Submit</div>
-    </div>
-    </section>
+          <div class="input-group">
+
+            <input type="text"  name='name' placeholder="Full Name" required>
+
+            <input type="email" name ="email" placeholder="email" required>
+            <input type="number" name="number" placeholder="Phone number">
+            <textarea name="message" required placeholder="Your Message" ></textarea>
+            <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="thankyou.html">
+            <input type="hidden" name="_template" value="table">
+            <button type="submit">Submit</button> 
+            
+
+              
+          </div>
+      </form>
+  </section>
 
    <footer>
     <ul>
